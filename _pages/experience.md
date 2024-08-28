@@ -6,9 +6,10 @@ author_profile: true
 ---
 
 ## Associate Software Engineer at **Orbitax Bangladesh Limited**
-* Implemented orbitax’s support ticket creation feature, empowering clients to report and address issues encountered while utilizing orbitax’s tools
+* Implemented Orbitax’s support ticket creation feature, empowering clients to report and address issues encountered while utilizing Orbitax’s tools which is now actively used by all of the clients of Orbitax
 * Designed and implemented a timer component, effectively resolving multiple bugs and significantly reducing redundant code writing efforts for other developers
-* Working on developing a video meeting feature for orbitax meetings
+* Working on developing a video meeting feature for Orbitax meetings which will be used for all of the internal and
+client meetings of Orbitax
 
 ## Mentorship
 * Mentored 20+ freshman students to teach different algorithms, data structures, and programming.

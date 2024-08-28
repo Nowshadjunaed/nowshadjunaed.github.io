@@ -11,6 +11,10 @@ I am a recent graduate from the Computer Science and Engineering department at S
 
 **Currently, looking for PhD opportunities in CS for Fall ‘25.**
 
+### Education
+B.Sc in Computer Science and Engineering <br>
+<small>Shahjalal University of Science &amp; Technology</small>
+
 ### Research Interest
 * Natural Language Processing
 * Artificial Intelligence
