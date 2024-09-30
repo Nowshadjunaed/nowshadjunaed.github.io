@@ -20,6 +20,5 @@ B.Sc in Computer Science and Engineering <br>
 * Artificial Intelligence
 * Machine Learning
 * Human-Computer Interaction
-* Bioinformatics
 * Software Engineering
 
