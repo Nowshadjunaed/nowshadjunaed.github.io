@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a> (33 citations, h-index: 2, i10-index: 2)</div>
+  <div class="wordwrap">You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a> (34 citations, h-index: 2, i10-index: 2)</div>
 {% endif %}
 
 **NumDecoders at SemEval-2024 Task 7: FlanT5 and GPT enhanced with CoT for Numerical Reasoning**<br>
@@ -26,7 +26,7 @@ Sourav Saha<sup>†</sup>, **Jahedul Alam Junaed<sup>†</sup>**, Maryam Saleki,
 **Blp-2023 task 1: Violence inciting text detection (vitd)**<br>
 Sourav Saha<sup>†</sup>, **Jahedul Alam Junaed<sup>†</sup>**, Maryam Saleki, Mohamed Rahouti, Nabeel Mohammed, Mohammad Ruhul Amin <br>
 <sup> † </sup> *Equal contribution* <br>
-13 Citations. First Workshop on Bangla Language Processing. EMNLP 2023. [[pdf]](https://aclanthology.org/2023.banglalp-1.33.pdf)
+14 Citations. First Workshop on Bangla Language Processing. EMNLP 2023. [[pdf]](https://aclanthology.org/2023.banglalp-1.33.pdf)
 
 **garNER at SemEval-2023: Simplified Knowledge Augmentation for Multilingual Complex Named Entity Recognition**<br>
 Md Zobaer Hossain, Averie Ho Zoen So, Silviya Silwal, H Andres Gonzalez Gongora, Ahnaf Mozib Samin, **Jahedul Alam Junaed**, Aritra Mazumder, Sourav Saha, Sabiha Tahsin Soha<br>

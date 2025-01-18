@@ -24,6 +24,6 @@ You can find the leaderboard [here](https://www.kaggle.com/competitions/numeval/
 ## Top 10 in 10 language tracks, SemEval 2023: Multilingual Complex Named Entity Recognition
 Our team, **garNER**, participated in MultiCoNER shared task focused on detecting semantically ambiguous and complex entities in short, low-context settings. We developed a knowledge augmentation approach. By querying the Wikipedia API, we appended summaries of relevant entities directly to the input sentences. These entities were either retrieved from the labeled training set (Gold Entity) or identified using off-the-shelf entity taggers (Entity Extractor). To enhance accuracy, we employed ensemble methods across multiple models for the final predictions.
 
-This competition included 13 tracks: 12 language-specific tracks and 1 multilingual track. I'm proud to share that we secured a spot in the top 10 for 10 of the language tracks.
+This competition included 13 tracks: 12 language-specific tracks and 1 multilingual track. I'm proud to share that we secured a spot in the top 10 for 10 of the language tracks. Notably, we were the only team in the shared task to achieve a top-10 position in 10 out of the 13 tracks.
 
 You can find the leaderboard of each track [here](https://multiconer.github.io/results) 
