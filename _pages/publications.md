@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a> (34 citations, h-index: 2, i10-index: 2)</div>
+  <div class="wordwrap">You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a> (37 citations, h-index: 2, i10-index: 2)</div>
 {% endif %}
 
 **NumDecoders at SemEval-2024 Task 7: FlanT5 and GPT enhanced with CoT for Numerical Reasoning**<br>
@@ -21,7 +21,7 @@ FAccT 2024. [[pdf]](https://facctconference.org/static/papers24/facct24-145.pdf)
 **Vio-lens: A novel dataset of annotated social network posts leading to different forms of communal violence and its evaluation**<br>
 Sourav Saha<sup>†</sup>, **Jahedul Alam Junaed<sup>†</sup>**, Maryam Saleki, Arnab Sen Sharma, Mohammad Rashidujjaman Rifat, Mohamed Rahouti, Syed Ishtiaque Ahmed, Nabeel Mohammed, Mohammad Ruhul Amin<br>
 <sup> † </sup> *Equal contribution* <br>
-18 Citations. First Workshop on Bangla Language Processing. EMNLP 2023. [[pdf]](https://aclanthology.org/2023.banglalp-1.9.pdf)
+21 Citations. First Workshop on Bangla Language Processing. EMNLP 2023. [[pdf]](https://aclanthology.org/2023.banglalp-1.9.pdf)
 
 **Blp-2023 task 1: Violence inciting text detection (vitd)**<br>
 Sourav Saha<sup>†</sup>, **Jahedul Alam Junaed<sup>†</sup>**, Maryam Saleki, Mohamed Rahouti, Nabeel Mohammed, Mohammad Ruhul Amin <br>
