@@ -5,7 +5,7 @@ permalink: /experience/
 author_profile: true
 ---
 
-## Associate Software Engineer at **Orbitax Bangladesh Limited**
+## Software Engineer at **Orbitax Bangladesh Limited**
 * Developed the support ticket feature, where clients report issues with detailed information, and administrative staff provide solutions, now actively used by all Orbitax clients
 * Built a few reusable components that streamlined development, and reduced repetitive code for other developers
 * Developed a video meeting feature named Orbitax Meet which is being used for all of the internal and client meetings of Orbitax
