@@ -6,9 +6,11 @@ author_profile: true
 ---
 
 ## Software Engineer at **Orbitax Bangladesh Limited**
-* Developed the support ticket feature, where clients report issues with detailed information, and administrative staff provide solutions, now actively used by all Orbitax clients
-* Built a few reusable components that streamlined development, and reduced repetitive code for other developers
-* Developed a video meeting feature named Orbitax Meet which is being used for all of the internal and client meetings of Orbitax
+* Built a client support platform that automated task assignment and enabled real-time complaint tracking, improving team efficiency and significantly reducing resolution time
+* Designed and implemented a video conferencing system (“Orbitax Meet”) now used as the primary platform for internal collaboration and client meetings at Orbitax
+* Developed a parallel file download solution for handling multiple files concurrently, improving system scalability and reliability, and reducing average download time by 70% for large file transfers
+* Contributed to building a scalable user activity tracking module capable of processing millions of data, enabling reliable monitoring and audit trails
+* Built reusable components that streamlined development and reduced repetitive coding for other developers
 
 ## Competitive Programming Experience
 * Solved <b>1800+</b> programming problems on various online judges including CodeForces, LeetCode, Vjudge, LightOJ, UVA, etc. (Online Judges Profile: [Codeforces](https://codeforces.com/profile/NowshadJunaed), [Codechef](https://www.codechef.com/users/nowshad_junaed), [LightOj](https://lightoj.com/user/nowshadjunaed), [Vjudge](https://vjudge.net/user/2017331025))
