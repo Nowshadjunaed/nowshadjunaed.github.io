@@ -16,7 +16,7 @@ B.Sc in Computer Science and Engineering <br>
 ### Research Interest
 * Natural Language Processing
 * Artificial Intelligence
+* Software Engineering
 * Machine Learning
 * Human-Computer Interaction
-* Software Engineering
 
