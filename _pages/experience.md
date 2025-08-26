@@ -6,11 +6,11 @@ author_profile: true
 ---
 
 ## Software Engineer at **Orbitax Bangladesh Limited**
-* Built a client support platform that automated task assignment and enabled real-time complaint tracking, improving team efficiency and significantly reducing resolution time
-* Designed and implemented a video conferencing system (“Orbitax Meet”) now used as the primary platform for internal collaboration and client meetings at Orbitax
-* Developed a parallel file download solution for handling multiple files concurrently, improving system scalability and reliability, and reducing average download time by 70% for large file transfers
-* Contributed to building a scalable user activity tracking module capable of processing millions of data, enabling reliable monitoring and audit trails
-* Built reusable components that streamlined development and reduced repetitive coding for other developers
+* Built a <b>client support platform</b> that automated task assignment and enabled real-time complaint tracking, improving team efficiency and significantly <b>reducing resolution time</b>
+* Designed and implemented a <b>video conferencing system</b> (“Orbitax Meet”) now used as the <b>primary platform</b> for internal collaboration and client <b>meetings</b> at Orbitax
+* Developed a <b>parallel file download</b> solution for handling multiple files concurrently, improving system scalability and reliability, and <b>reducing</b> average <b>download time by 70%</b> for large file transfers
+* Contributed to building a scalable <b>user activity tracking</b> module capable of processing <b>millions of data</b>, enabling <b>reliable monitoring</b> and audit trails
+* Built <b>reusable components</b> that streamlined development and <b>reduced repetitive coding</b> for other developers
 
 ## Competitive Programming Experience
 * Solved <b>1800+</b> programming problems on various online judges including CodeForces, LeetCode, Vjudge, LightOJ, UVA, etc. (Online Judges Profile: [Codeforces](https://codeforces.com/profile/NowshadJunaed), [Codechef](https://www.codechef.com/users/nowshad_junaed), [LightOj](https://lightoj.com/user/nowshadjunaed), [Vjudge](https://vjudge.net/user/2017331025))
