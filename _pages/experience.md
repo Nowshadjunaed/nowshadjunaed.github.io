@@ -7,7 +7,7 @@ author_profile: true
 
 ## Software Engineer at **Orbitax Bangladesh Limited**
 * Built a <b>client support platform</b> that automated task assignment and enabled real-time complaint tracking, improving team efficiency and significantly <b>reducing resolution time</b>
-* Designed and implemented a <b>video conferencing system</b> (“Orbitax Meet”) now used as the <b>primary platform</b> for internal collaboration and client <b>meetings</b> at Orbitax
+* Designed and implemented a <b>video conferencing system</b> (“Orbitax Meet”) using Zoom Video SDK now used as the <b>primary platform</b> for internal collaboration and client <b>meetings</b> at Orbitax
 * Developed a <b>parallel file download</b> solution for handling multiple files concurrently, improving system scalability and reliability, and <b>reducing</b> average <b>download time by 70%</b> for large file transfers
 * Contributed to building a scalable <b>user activity tracking</b> module capable of processing <b>millions of data</b>, enabling <b>reliable monitoring</b> and audit trails
 * Built <b>reusable components</b> that streamlined development and <b>reduced repetitive coding</b> for other developers
