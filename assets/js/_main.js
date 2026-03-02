@@ -3,6 +3,25 @@
    ========================================================================== */
 
 $(document).ready(function(){
+  // Theme toggle (dark/light) - use jQuery and delegation so click always works
+  $(document).on('click', '#theme-toggle-btn, .theme-toggle', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    var root = document.documentElement;
+    var isDark = root.classList.toggle('theme-dark');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    var metaThemeColor = document.querySelector('meta[name="theme-color"]');
+    if (metaThemeColor) {
+      metaThemeColor.setAttribute('content', isDark ? '#1a1a1a' : '#ffffff');
+    }
+  });
+  (function() {
+    var metaThemeColor = document.querySelector('meta[name="theme-color"]');
+    if (metaThemeColor && document.documentElement.classList.contains('theme-dark')) {
+      metaThemeColor.setAttribute('content', '#1a1a1a');
+    }
+  })();
+
   // Sticky footer
   var bumpIt = function() {
       $("body").css("margin-bottom", $(".page__footer").outerHeight(true));

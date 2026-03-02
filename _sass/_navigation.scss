@@ -189,7 +189,8 @@
     }
   }
 
-  button {
+  /* Only the hamburger (direct child button), not the theme toggle */
+  > button {
     position: absolute;
     height: 2.5rem;
     right: 0;

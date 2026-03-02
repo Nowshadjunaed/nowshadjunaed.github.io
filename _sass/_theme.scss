@@ -1,0 +1,437 @@
+/* ==========================================================================
+   Dark / Light theme
+   ========================================================================== */
+
+/* Theme toggle: first nav item after site name (before CV). Force visible. */
+.greedy-nav .visible-links .masthead__menu-item--theme {
+  display: table-cell !important;
+  vertical-align: middle;
+  min-width: 2.75rem;
+  width: 2.75rem;
+  padding: 0 0.5rem;
+  white-space: nowrap;
+
+  .theme-toggle {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem !important;
+    height: 2.25rem !important;
+    min-width: 2.25rem;
+    min-height: 2.25rem;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: transparent !important;
+    color: #444 !important;
+    cursor: pointer;
+    font-size: 1.35rem !important;
+    line-height: 1;
+    vertical-align: middle;
+    visibility: visible !important;
+    opacity: 1 !important;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.08);
+    }
+
+    &:focus {
+      outline: 2px solid currentColor;
+      outline-offset: 2px;
+    }
+
+    .theme-toggle__icon {
+      display: inline-flex !important;
+      align-items: center;
+      justify-content: center;
+      visibility: visible !important;
+      opacity: 1 !important;
+
+      svg {
+        width: 1.35rem;
+        height: 1.35rem;
+        color: inherit;
+      }
+    }
+
+    .theme-toggle__icon--light {
+      display: none !important;
+    }
+
+    .theme-toggle__icon--dark {
+      display: inline-flex !important;
+    }
+  }
+}
+
+/* Dark theme: show sun icon, hide moon */
+html.theme-dark .greedy-nav .masthead__menu-item--theme .theme-toggle {
+  color: #c0c0c0;
+
+  .theme-toggle__icon--light {
+    display: inline-flex !important;
+  }
+
+  .theme-toggle__icon--dark {
+    display: none !important;
+  }
+
+  &:hover {
+    color: #e8e8e8;
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+}
+
+/* ==========================================================================
+   Dark theme overrides
+   ========================================================================== */
+
+html.theme-dark {
+  transition: background-color 0.2s ease;
+  background-color: #1a1a1a;
+}
+
+.theme-dark body {
+  transition: color 0.2s ease, background-color 0.2s ease;
+  color: #e0e0e0;
+  background-color: #1a1a1a;
+}
+
+.theme-dark ::selection {
+  color: #1a1a1a;
+  background: #b0d4f1;
+}
+
+.theme-dark ::-moz-selection {
+  color: #1a1a1a;
+  background: #b0d4f1;
+}
+
+/* Masthead & nav */
+.theme-dark .masthead {
+  background: #252525;
+  border-bottom-color: #404040;
+}
+
+.theme-dark .greedy-nav {
+  background: #252525;
+
+  a {
+    color: #c0c0c0;
+
+    &:hover {
+      color: #e8e8e8;
+    }
+
+    &::before {
+      background: rgba(255, 255, 255, 0.3);
+    }
+  }
+
+  button:not(.theme-toggle) {
+    background-color: #404040;
+    color: #e0e0e0;
+  }
+
+  .hidden-links {
+    background: #2d2d2d;
+    border-color: #404040;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+
+    a:hover {
+      color: #e8e8e8;
+      background: #404040;
+    }
+
+    &::before {
+      border-color: #404040 transparent;
+    }
+
+    &::after {
+      border-color: #2d2d2d transparent;
+    }
+
+    li {
+      border-bottom-color: #404040;
+    }
+  }
+}
+
+/* Sidebar / author profile */
+.theme-dark .sidebar {
+  color: #e0e0e0;
+}
+
+.theme-dark .author__name,
+.theme-dark .author__bio,
+.theme-dark .author__pronouns {
+  color: #e8e8e8;
+}
+
+/* Author desktop lines (location, employer) - readable muted gray, not white */
+.theme-dark .author__desktop {
+  color: #b0b0b0;
+}
+
+/* Icons in author sidebar: visible in dark theme (override .social-icons .fa { color: #000 }) */
+.theme-dark .author__urls.social-icons .fa,
+.theme-dark .author__urls.social-icons .fas,
+.theme-dark .author__urls.social-icons .fab,
+.theme-dark .author__urls.social-icons .far,
+.theme-dark .author__urls.social-icons .ai,
+.theme-dark .author__urls.social-icons i {
+  color: #a0a0a0;
+}
+
+/* Icons inside links inherit link color so they stay visible and match text */
+.theme-dark .author__urls.social-icons a .fa,
+.theme-dark .author__urls.social-icons a .fas,
+.theme-dark .author__urls.social-icons a .fab,
+.theme-dark .author__urls.social-icons a .ai,
+.theme-dark .author__urls.social-icons a i {
+  color: inherit;
+}
+
+.theme-dark .author__urls {
+  background: transparent;
+  border-color: #404040;
+}
+
+.theme-dark .author__urls::after {
+  border-color: #1a1a1a transparent;
+}
+
+.theme-dark .author__avatar img {
+  border-color: #404040;
+}
+
+/* Footer */
+.theme-dark .page__footer {
+  background-color: #252525;
+  border-top-color: #404040;
+  color: #a0a0a0;
+
+  a:hover {
+    color: #c0c0c0;
+  }
+
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: #a0a0a0;
+  }
+}
+
+/* Page content */
+.theme-dark .page__content {
+  h2 {
+    border-bottom-color: #404040;
+  }
+
+  a {
+    color: #6eb3e0;
+
+    &:hover {
+      color: #8fc4eb;
+    }
+  }
+}
+
+.theme-dark .page__title {
+  color: #e8e8e8;
+}
+
+.theme-dark .page__share,
+.theme-dark .page__meta {
+  border-color: #404040;
+}
+
+/* Archive */
+.theme-dark .archive__subtitle {
+  color: #a0a0a0;
+  border-bottom-color: #404040;
+}
+
+/* Pagination */
+.theme-dark .pagination {
+  a {
+    color: #a0a0a0;
+    border-color: #404040;
+
+    &:hover {
+      color: #6eb3e0;
+    }
+
+    &.current {
+      color: #e0e0e0;
+      background: #404040;
+    }
+
+    &.disabled {
+      color: #606060;
+    }
+  }
+
+  .pagination--pager {
+    color: #a0a0a0;
+    border-color: #404040;
+
+    &:hover {
+      color: #6eb3e0;
+    }
+
+    &.disabled {
+      color: #606060;
+    }
+  }
+}
+
+/* Table of contents */
+.theme-dark .toc {
+  background-color: #2d2d2d;
+  border-color: #404040;
+  color: #a0a0a0;
+
+  .nav__title {
+    background: #404040;
+    color: #e0e0e0;
+  }
+}
+
+.theme-dark .toc__menu a {
+  color: #a0a0a0;
+  border-bottom-color: #404040;
+
+  &:hover {
+    color: #e8e8e8;
+    background: #404040;
+  }
+}
+
+/* Nav list (sidebar-style) */
+.theme-dark .nav__list .active {
+  background: #404040;
+  color: #e0e0e0;
+}
+
+.theme-dark .nav__sub-title {
+  border-bottom-color: #404040;
+}
+
+/* Breadcrumbs */
+.theme-dark .breadcrumbs {
+  color: #a0a0a0;
+}
+
+/* Buttons */
+.theme-dark .btn--inverse {
+  color: #e0e0e0 !important;
+  border-color: #404040 !important;
+  background-color: #2d2d2d;
+
+  &:hover {
+    color: #1a1a1a !important;
+    border-color: #606060;
+    background-color: #e0e0e0;
+  }
+}
+
+/* Notices (default and variants use mix with white - override background) */
+.theme-dark .notice {
+  background-color: #2d2d2d;
+  border-left-color: #404040;
+  color: #e0e0e0;
+
+  h4 {
+    color: #e8e8e8;
+  }
+
+  code {
+    background-color: #404040;
+  }
+}
+
+/* Forms */
+.theme-dark input[type="text"],
+.theme-dark input[type="email"],
+.theme-dark input[type="url"],
+.theme-dark input[type="search"],
+.theme-dark textarea {
+  background-color: #2d2d2d;
+  border-color: #404040;
+  color: #e0e0e0;
+
+  &::placeholder {
+    color: #808080;
+  }
+}
+
+/* Code / syntax */
+.theme-dark div.highlighter-rouge,
+.theme-dark figure.highlight {
+  background-color: #252525;
+  border-color: #404040;
+
+  &::before {
+    background-color: #404040;
+    color: #a0a0a0;
+  }
+}
+
+.theme-dark .highlight {
+  color: #d4d4d4;
+}
+
+/* Inline code in page content */
+.theme-dark .page__content code {
+  background-color: #2d2d2d;
+  border-color: #404040;
+  color: #d4d4d4;
+}
+
+/* Tables */
+.theme-dark table {
+  color: #e0e0e0;
+
+  th,
+  td {
+    border-color: #404040;
+  }
+
+  thead th {
+    background: #2d2d2d;
+    color: #e8e8e8;
+  }
+
+  tbody tr:hover {
+    background: #252525;
+  }
+}
+
+/* Base link color (reset uses $link-color) */
+.theme-dark a {
+  color: #6eb3e0;
+}
+
+.theme-dark u,
+.theme-dark ins {
+  border-bottom-color: #606060;
+}
+
+/* Sidebar icons: force university/location white and GitHub blue in dark theme (at end of file so they override everything) */
+html.theme-dark .sidebar .author__urls-wrapper ul.author__urls li.author__desktop i.fa-building-columns,
+html.theme-dark .sidebar .author__urls-wrapper ul.author__urls li.author__desktop i.fa-solid.fa-building-columns,
+html.theme-dark .sidebar .author__urls-wrapper ul.author__urls li.author__desktop i.fa-location-dot,
+html.theme-dark .author__urls.social-icons li.author__desktop .fa-building-columns,
+html.theme-dark .author__urls.social-icons li.author__desktop .fa-location-dot {
+  color: #fff !important;
+}
+
+html.theme-dark .sidebar .author__urls-wrapper ul.author__urls li a i.fa-github,
+html.theme-dark .sidebar .author__urls-wrapper ul.author__urls li a i.fab.fa-github,
+html.theme-dark .author__urls.social-icons a .fa-github {
+  color: #6eb3e0 !important;
+}

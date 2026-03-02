@@ -1,5 +1,5 @@
-{% if site.url %}
-  {% assign base_path = site.url | append: site.baseurl %}
-{% else %}
-  {% assign base_path = site.github.url %}
-{% endif %}
+{% comment %}
+  Use only baseurl so links are relative and work on both localhost and production.
+  Previously base_path was site.url + baseurl, which made nav links go to the live domain.
+{% endcomment %}
+{% assign base_path = site.baseurl %}
