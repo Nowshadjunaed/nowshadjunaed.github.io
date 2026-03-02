@@ -187,6 +187,12 @@
     &:hover {
       color: $masthead-link-color-hover;
     }
+
+    /* Active tab: current page */
+    &.active {
+      color: #2563eb;
+      font-weight: 600;
+    }
   }
 
   /* Only the hamburger (direct child button), not the theme toggle */
@@ -244,7 +250,8 @@
                 transform: scaleX(0); /* hide*/
       }
 
-      &:hover:before {
+      &:hover:before,
+      &.active:before {
         -webkit-transform: scaleX(1);
             -ms-transform: scaleX(1);
                 transform: scaleX(1); /* reveal*/

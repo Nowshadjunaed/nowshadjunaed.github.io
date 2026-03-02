@@ -125,6 +125,12 @@ html.theme-dark {
       color: #e8e8e8;
     }
 
+    /* Active tab: current page - blue so it stands out */
+    &.active {
+      color: #6eb3e0;
+      font-weight: 600;
+    }
+
     &::before {
       background: rgba(255, 255, 255, 0.3);
     }
